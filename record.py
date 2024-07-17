@@ -1,4 +1,4 @@
-from picamera2 import Picamera2import time
+from picamera2 import Picamera2
 
 # adding here static variables for ease of use
 fps = 60
