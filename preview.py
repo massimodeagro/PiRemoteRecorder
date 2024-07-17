@@ -8,6 +8,6 @@ res = (1280, 1024)
 picam2 = Picamera2()
 picam2.preview_configuration.size = res
 
-picam2.start_preview(Preview.QT)
+picam2.start(show_preview=True)
 time.sleep(10)
 picam2.close()
