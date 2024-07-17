@@ -1,4 +1,4 @@
-from picamera2 import Picamera2
+from picamera2 import Picamera2, Preview
 import time
 
 # adding here static variables for ease of use
