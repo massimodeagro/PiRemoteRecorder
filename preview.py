@@ -1,4 +1,5 @@
 from picamera2 import Picamera2, Preview
+from libcamera import controls
 import time
 
 lens_position = float(input('specify lens position from 0 to 1'))
