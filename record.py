@@ -1,8 +1,8 @@
 from picamera2 import Picamera2
 
 # adding here static variables for ease of use
-fps = 60
-res = (1280, 1024)
+fps = 50
+res = (1920, 1080)
 
 # here you have user specified data
 file_name = input('please insert the video name: ')
