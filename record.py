@@ -1,5 +1,4 @@
 from picamera2 import Picamera2
-from libcamera import controls
 
 # adding here static variables for ease of use
 fps = 60
