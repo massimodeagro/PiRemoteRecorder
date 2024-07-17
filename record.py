@@ -19,7 +19,7 @@ picam2 = Picamera2()
 picam2.video_configuration.controls.FrameRate = fps
 picam2.preview_configuration.size = res
 
-picam2.start_and_record_video(file_name, duration=recording_duration)
+picam2.start_and_record_video(file_name+'.mp4', duration=recording_duration)
 picam2.close()
 
                              
