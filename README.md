@@ -7,7 +7,12 @@ Simple code to be loaded on all Rasperry Pis to easily record video from remote 
 - connect it to the same network of your computer
 - install prerequisites
 ```
+sudo apt update
+sudo apt upgrade
 sudo apt install screen
+sudo apt install git
+
+git clone https://github.com/massimodeagro/PiRemoteRecorder.git
 ```
 
 ## Run
@@ -30,12 +35,18 @@ ssh -Y username@ip.found.in.arp
 ```
 - insert password
 - now you are inside the raspi terminal. The user@hostname should be green
+- move to the software folder
+```
+cd PiRemoteRecorder
+```
+
 - run camera check
 ```
 python preview.py
 ```
+
 - if everything is ok, you can now proceed with recording
-- 
+  
 ```
 screen -S nameOfHangedTerminal
 python record.py
