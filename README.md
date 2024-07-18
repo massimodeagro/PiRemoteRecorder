@@ -28,7 +28,7 @@ this will check for devices connected to network
 
 find ip for the corresponding MAC address (check phone connected devices for pi hostname/mac correspondance)
 
-- now open WLS terminal
+- now open WSL terminal
 - connect to device
 ```
 ssh -Y username@ip.found.in.arp
@@ -62,3 +62,12 @@ then
 ```
 exit
 ```
+
+- if you want to move a video from the raspberry to the main computer without extracting the sd card, you can do so using ssh copy.
+- From the local WSL terminal, type
+
+```
+scp username@ip.found.in.arp:/path/to/video/videoname.format /path/to/local/videoname.format
+```
+
+
