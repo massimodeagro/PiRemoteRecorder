@@ -10,5 +10,5 @@ picam2 = Picamera2()
 picam2.preview_configuration.size = res
 
 picam2.start(show_preview=True)
-time.sleep(10)
+time.sleep(30)
 picam2.close()
