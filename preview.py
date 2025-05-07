@@ -3,7 +3,7 @@ import time
 
                       
 # adding here static variables for ease of use
-res = (1280, 1024)
+res = (2304, 1296)
 
 # main
 picam2 = Picamera2()
